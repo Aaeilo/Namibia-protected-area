@@ -1,0 +1,1 @@
+L’objectif de ce projet est, d’une part, de présenter et représenter les différentes typologies des zones protégé sous différents fonds de cartes. Puis, de fournir des informations sur la faune et flore présente sur chacune des zones en Namibie.
