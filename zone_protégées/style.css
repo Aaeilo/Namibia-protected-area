@@ -1,0 +1,88 @@
+body {
+	font-family: "Axia", Arial, Helvectica, sans-serif;
+	font-size: 12pt;
+	margin: 20px;
+	color: #3E1002;
+}
+
+.introduction{
+	font-size: 16;
+	text-align: justify;
+}
+
+.main{
+	position: relative;
+}
+
+.carte-interactive{
+	position: absolute;
+	top: 0;
+	left: 340px;
+	width: 600px;
+	height: 500px;
+	background-color: #F2EECC;
+	border: 1px solid #FFFFFF;
+}
+
+.bandeau{
+	position: absolute;
+	top: 0;
+	left: 0px;
+	width: 300px;
+	height: 470px;
+	background-color: #F2EECC;
+	border: 1px solid #FFFFFE;
+	padding: 15px;
+}
+
+.infos-parc{
+	position: absolute;
+	top: 0;
+	left: 950px;
+	width: 420px;
+	height: 470px;
+	background-color: #F2EECC;
+	border:1px solid #FFFFFE;
+	padding: 15px;
+	font-size: 14px;
+	text-align: justify;
+}
+
+.tuto_1{
+	margin-top: 0;
+	font-size: 12pt;
+	text-align: justify;
+}
+
+.legend{
+	margin-top: 0;
+	font-size: 14pt;
+}
+
+.typologie input{
+	width: 50px;
+	height: 20px;
+	padding: 0px;
+}
+
+/* Coloration des cases à cocher */
+#p1{
+	accent-color: #85b66f;
+}
+
+#p2{
+	accent-color: #beb297;
+}
+
+#p3{
+	accent-color: #d77353;
+}
+
+#p4{
+	accent-color: #91c8ce;
+}
+
+.tuto_2{
+	margin-top: 0px;
+	font-size: 12px;
+}
