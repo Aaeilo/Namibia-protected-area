@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <meta charset="utf8" />
+    <title>Ressources naturelles et gestion durable: étude de cas avec les espaces protéges en Namibie</title>
+    <script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="geodata/parcs_nam.js"></script>
+  </head>
+  <body>
+  <h1> Ressources naturelles et gestion durable: étude de cas avec les espaces protéges en Namibie </h1>
+    <div class="introduction"><p> La Namibie est un pays de l’Afrique australe qui, malgré son climat aride, dispose une multitude d’écosystèmes. Se rendant compte de cet avantage, le gouvernement namibien a, dès l’indépendance du pays dans les années 90, inscrit dans leur constitution la protection de l’environnement. L’une de ses mesures a été la mise en place des espaces protégés pour garantir la sécurité et la gestion de la faune mais également des ressources naturelles.  Il existe quatre types de zones protégés en Namibie ;<ul>
+      <li>Parcs nationaux</li>
+      <li>Réserves naturelles</li>
+      <li>Communes dites "Conservatoires"</li>
+      <li>Zone maritime</li>
+    </ul>
+    Dans cette carte, tu pourras explorer ces aires et te renseigner sur  chacun d’entre eux sur leur faune et flore.</p>
+
+
+    <div class="main">
+      <div id="map" class="carte-interactive"></div>
+      <div class="bandeau">
+
+        <p class="tuto_1"><i>Dans ce bandeau, tu peux sélectionner les parcs/zones que tu souhaite obeserver. Mais tu peux aussi cliquer directements sur la cartes.</i></p>
+
+        <div class="typologie">
+          <p class="legend">Typologies des zones protégées :</p>
+
+          <ol>
+            <li><input id="p1" type="checkbox" name="parc_nationaux" class="check" checked /> Parcs nationaux</li>
+            <li><input id="p2" type="checkbox" name="reserve_naturel" class="check" checked /> Réserves naturelles</li>
+            <Li><input id="p3" type="checkbox" name="zone_comm" class="check" checked />Communes <i>conservatoires</i></Li>
+            <li><input id="p4" type="checkbox" name="zone_marine" class="check" checked />Zone maritime</li>
+          </ol>
+        </div>
+
+        <div class="infos-parc">
+          <p class="tuto_2"><i>Cliques sur un espace coloré pour obtenir les informations sur le parc/zone correspondant.</i></p>
+        </div>
+
+
+
+      </div>
+
+    <script src="main.js"></script>
+    <script src="geodata/parcs_details.js"></script>
+</body>
+    
+</html>
+
+    
+
